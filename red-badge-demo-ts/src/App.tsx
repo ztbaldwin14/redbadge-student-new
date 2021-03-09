@@ -1,24 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Container } from "reactstrap";
 
 function App() {
+  const url = "https://api.adviceslip.com/advice";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <Container>
+        <h2>Challenge 2</h2>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          For this challenge you will need to convert the functional component
+          and convert it into a class component. The fetch will need to be
+          completed on page load - no button clicks.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <ul>
+          <li>
+            Create an iterface in the functional component and class component.
+            Make the interface based on the response you get back from the API.
+          </li>
+          <li>
+            Use the url in this file to pass down as a prop to use in the
+            conponent
+          </li>
+          <li>Conduct the fetch on page load</li>
+        </ul>
+      </Container>
     </div>
   );
 }
