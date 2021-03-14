@@ -1,2 +1,6 @@
 challenge01 - convert funciton to class and add button click
 challenge02 - convert function fetch onload to class onload
+diceproject - diceproject demoing passing props and setting state in child
+typescript01 - 
+
+cleanreact - clean react to branch off of
