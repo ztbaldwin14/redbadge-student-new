@@ -7,9 +7,9 @@ function App() {
       <Container>
         <h2>Convert to Class Challenge 01</h2>
         <p>
-          Take convert the the component (InfoCard.tsx) and turn them into class
-          components in a new file (InfoCardClass.tsx) and bring them in to the
-          App.tsx file. Please use a different picutre in each mount of
+          Convert the component (InfoCard.tsx) and turn them into class
+          components in a new file (InfoCardClass.tsx) and bring them into the
+          App.tsx file. Please use a different picture in each mount of
           InfoCardClass
         </p>
         <Row>
