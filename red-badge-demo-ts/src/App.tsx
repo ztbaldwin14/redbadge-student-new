@@ -20,7 +20,7 @@ function App() {
             </a>
           </li>
           <li>API you will use: https://api.adviceslip.com/advice </li>
-          <li>Create the AdviceSlip.tsx file</li>
+          <li>Create the AdviceSlipClass.tsx file</li>
           <li>The fetch will happen with the Onload of the page.</li>
           <li>Class component will be used</li>
           <li>
